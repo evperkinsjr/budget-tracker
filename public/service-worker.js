@@ -44,7 +44,7 @@ self.addEventListener("activate", function (event) {
         })
     );
 
-    self.ClientRectList.claim();
+    self.clients.claim();
 });
 
 // fetch
@@ -68,7 +68,7 @@ self.addEventListener("fetch", function (event) {
         );
         return;
     }
-    
+
     // if the request is not for the API, serve static assets using "offline-first" approach
     event.respondWith(
         caches.open(CACHE_NAME).then(cache => {
