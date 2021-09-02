@@ -6,11 +6,11 @@ For this project, I added functionality to a Budget Tracker application to allow
 
 The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
-
-## Links
 The application was deployed using MongoDB Atlas and Heroku.
 - [Live Application](https://shielded-dawn-11193.herokuapp.com/)
 - [Project Repository](https://github.com/evperkinsjr/budget-tracker)
+
+![budget-tracker-screenshot](https://user-images.githubusercontent.com/79537431/131922521-073a9e3b-93ab-45ea-acf0-75f1287bcaad.png)
 
 
 ## Technologies Used
